@@ -4,7 +4,7 @@
            [(ngModel)]="contentdata.Title" class="form-control" required #PageContentTitle="ngModel"
            id="PageContentTitle">
   </div>
-  <ckeditor [(ngModel)]="contentdata.Content" #PageContent="ngModel" name="PageContent" required
+  <ckeditor [(ngModel)]="contentdata.Content"  #PageContent="ngModel" name="PageContent" required
             [config]="ckeConfig" debounce="500">
   </ckeditor>
   <div class="form-group mt-4">
